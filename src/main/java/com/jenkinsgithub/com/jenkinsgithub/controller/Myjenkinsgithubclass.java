@@ -10,6 +10,8 @@ public class Myjenkinsgithubclass {
   @RequestMapping("/hellojenkins")
 	public String hellojenkins()
 	{
+	  
+	  System.out.println("Hello I'm using automatic build");
 		return "Hello Jenkins";
 	}
 
